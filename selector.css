@@ -1,0 +1,16 @@
+@charset "utf-8" ; 
+/* div 안에 있는 모든 p 선택 */
+/* 한칸 띄우기 = "A B" A 안의 모든 B 선택 */
+.section1 p{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+/* 자식 선택자  */
+/* > = "A > B" A 안의 B만 선택 (하위 태그는 선택 안됨) */
+.sectin2 > p{
+    color: blue;
+}
+section > p{
+    color: red;
+}

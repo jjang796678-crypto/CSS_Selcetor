@@ -1,0 +1,60 @@
+@charset "utf-8" ; 
+/* 태그 선택자  */
+body{
+    background-color: rgba(255, 255, 0, 0.048);
+}
+h1{
+    color: rgb(0, 148, 148);
+    font-size: 70px;
+    background-color: rgb(172, 255, 47);
+}
+p{
+    color: blue;
+}
+/* 클래스 선택자  */
+h2{
+    font-size: 32px;
+}
+.menu1{
+    color: red;
+}
+.menu2{
+    color: darkorange;
+}
+.menu3{
+    color: green;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: 2px solid red;
+}
+.box1{
+    background-color: chartreuse;
+    border-radius: 50%;
+}
+.box2{
+    background-color: rebeccapurple ;
+}
+.box3{
+    background-color: khaki;
+}
+/* 아이디 선택자 */
+#title{
+    font-size: 48px;
+}
+#title2{
+    color: brown;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 여러 선택자 한번에 할때 ,  */
+h4, 
+.smalltitle , 
+.desc{
+    font-size: 14px;
+    color: red;
+    background-color: aqua;
+    font-weight: 600;
+}
